@@ -1,0 +1,121 @@
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
+
+.card-body {
+    color: #ffffff;
+}
+
+.card-title {
+    color: #ffffff;
+}
+
+.card-text {
+    color: #cccccc;
+}
+
+.list-group-item {
+    background-color: #1e1e1e;
+    border-color: #333;
+    color: #ffffff;
+}
+
+.list-group-item .btn-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.list-group-item .btn-link:hover {
+    color: #198754;
+}
+
+.modal-content {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.modal-header {
+    border-bottom-color: #333;
+}
+
+.modal-footer {
+    border-top-color: #333;
+}
+
+.recipe-card {
+    cursor: pointer;
+    transition: transform 0.2s;
+    background-color: #1e1e1e;
+}
+
+.recipe-card:hover {
+    transform: translateY(-5px);
+}
+
+.ingredient-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ingredient-list li {
+    padding: 8px;
+    border-bottom: 1px solid #333;
+    color: #cccccc;
+}
+
+.ingredient-list li:last-child {
+    border-bottom: none;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-control button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: #198754;
+    color: white;
+    cursor: pointer;
+}
+
+.quantity-control button:hover {
+    background-color: #157347;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    color: #cccccc;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item h6 {
+    color: #ffffff;
+    margin-bottom: 0.25rem;
+}
+
+.btn-close {
+    filter: invert(1) grayscale(100%) brightness(200%);
+}
